@@ -1,0 +1,64 @@
+
+body{
+    background-color: #121212;
+}
+
+.courses {
+    display: flex;
+    gap: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+    justify-content: center;
+    margin-top: 50px;
+
+    @media(max-width: 1672px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+.courses__items {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+    padding: 4rem;
+    box-shadow: 0 3rem 5rem rgba(38, 40, 40, 0.3);
+    border-radius: 10px;
+}
+
+.courses__items__content {
+    width: clamp(14.375rem, 11.648rem + 13.64vw, 21.875rem);
+    height: clamp(25rem, 23.864rem + 5.68vw, 28.125rem);
+    text-align: center;
+}
+
+
+.courses__title {
+    padding-bottom: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.courses__text, .courses__price {
+    font-size: clamp(0.938rem, 0.778rem + 0.8vw, 1.375rem);
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.button__buy {
+    background-color:  #121212;
+    width: 130px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-size: clamp(0.938rem, 0.778rem + 0.8vw, 1.375rem);
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+    opacity: 0.7;
+}

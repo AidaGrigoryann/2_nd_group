@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body id="appBody">
+    <header class="header" id="id0">
+        <div class="bg__image">
+        </div>
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./assets/logo.svg" alt="logo">
+            </div>
+            <div class="navbar__items">
+                <ul class="navbar__items__list">
+                </ul>
+            </div>
+            <div class="navbar__button">
+                <button class="button__item">Зайти в кабинет</button>
+            </div>
+            <div class="menu__icon">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    <div class="div__input hidden">
+        <button class="close__modal1">&times;</button>
+        <p class="text">Вход</p>
+        <p class="email">Электронный адрес</p>
+        <form>
+            <input type="email" placeholder="Введите адрес электронной почты" class="input__email" name="email">
+            <p class="error"></p>
+            <p class="password">Пароль</p>
+            <input type="password" placeholder="Введите свой пароль" class="input__password" name="password">
+            <button class="input__button">Войти</button>
+        </form>
+        <span class="create__new__account">У вас нет аккаунта? </span> <a href="#" class="create__new__account__link">
+            Создать новый аккаунт</a>
+    </div>
+
+    <section class="first__course" id="id1">
+        <p class="text__first__course">
+            Первый курс
+            по компьютерной сборке
+        </p>
+        <div class="timer">
+            <div class="time">
+                <p class="days timer__items__p"></p>
+                <small class="timer__items__span">Дней</small>
+            </div>
+            <div class="time">
+                <p class="hours timer__items__p"></p>
+                <small class="timer__items__span">Часов</small>
+            </div>
+            <div class="time">
+                <p class="minutes timer__items__p"></p>
+                <small class="timer__items__span">Минут</small>
+            </div>
+            <div class="time">
+                <p class="seconds timer__items__p"></p>
+                <small class="timer__items__span">Секунд</small>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="order__course" id="id1">
+        <div class="order__course__btn">
+            <button class="order__course__btn__text"><a href="./main.html" target="_blank">Заказать
+                    курс</a></button>
+        </div>
+        <div class="students">
+            <div class="students__item">
+                <span class="order__course__text1">Учеников всего:</span>
+                <span class="order__course__text2">200</span>
+            </div>
+            <div class="students__item">
+                <span class="order__course__text1">Успешно закончили курс:</span>
+                <span class="order__course__text2">190</span>
+            </div>
+        </div>
+        <div class="order__course__earned">
+            <div class="order__course__earned__up">
+                <span class="earned__by__students order__course__text1">Заработано учениками:</span>
+                <span class="order__course__text1">400 000₽</span>
+            </div>
+            <div class="scale">
+                <div class="scale__left"></div>
+                <div class="scale__right"></div>
+            </div>
+            <div class="money">
+                <span class="money__start order__course__text1">0</span>
+                <span class="money__end order__course__text1">1 000 000₽</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="what__we__do" id="id2">
+        <div class="image__square">
+            <img src="./assets/about__img.png" alt="" class="img">
+        </div>
+        <div class="what__we__do__text">
+            <p class="text__up">Чем мы занимаемся?</p>
+            <p class="text__down">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et
+                feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum
+                vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean
+                facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin.
+                Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum
+                placerat nisi, lobortis.
+            </p>
+        </div>
+    </section>
+
+    <section class="contanier">
+        <div class="quick__start">
+            <div class="quick__start__header">
+                <img src="./assets/quick_start_logo.svg" alt="Logo Part" class="quick__start__logo__part" />
+                <span>Быстрый старт</span>
+            </div>
+            <span>
+                Больше 90% учеников прошли полный курс и смогли собрать свой первый
+                компьютер
+            </span>
+            <div class="quick__start__statistics">
+                <div class="quick__start__statistics__items">
+                    <span class="statistic__num__row">100%</span>
+                    <img id="graph_first_line" src="./assets/graph_first_line.svg" alt="graph lines" />
+                    <span class="statistics__description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Netus
+                        eget velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+
+
+                <div class="quick__start__statistics__items">
+                    <span class="statistic__num__row">75%</span>
+                    <img id="graph_first_line" src="./assets/graph_second_line.svg" alt="graph lines" />
+                    <span class="statistics__description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Netus
+                        eget velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+
+
+                <div class="quick__start__statistics__items">
+                    <span class="statistic__num__row">50%</span>
+                    <img id="graph_first_line" src="./assets/graph_third_line.svg" alt="graph lines" />
+                    <span class="statistics__description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Netus
+                        eget velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+
+
+                <div class="quick__start__statistics__items">
+                    <span class="statistic__num__row">Итог</span>
+                    <img id="graph_first_line" src="./assets/graph_forth_line.svg" alt="graph lines" />
+                    <span class="statistics__description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Netus
+                        eget velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="get__your__work">
+            <div class="get__your__work__header">
+                <span>Получите профессию прямо сейчас</span>
+            </div>
+            <div class="get__your__work__items">
+                <div class="get__your__work__item">
+                    <img src="./assets/comp_logo.svg" alt="Logo" class="get__your__work__logo" />
+                    <span class="get__your__work__item__span">Только практические навыки в работе</span>
+                    <span class="get__your__work__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+                        eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+                <div class="get__your__work__item">
+                    <img src="./assets/flesh_logo.svg" alt="Logo" class="get__your__work__logo" />
+                    <span class="get__your__work__item__span">Работа на самом современном оборудовании</span>
+                    <span class="get__your__work__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+                        eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+                <div class="get__your__work__item">
+                    <img src="./assets/usb_logo.svg" alt="Logo" class="get__your__work__logo" />
+                    <span class="get__your__work__item__span">Сертификация по окончании обучения</span>
+                    <span class="get__your__work__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+                        eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas
+                        fringilla mi porttitor tempus. Placerat dui.</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="coworkers__brends">
+            <div class="coworkers__brends__header">
+                <img src="./assets/quick_start_logo.svg" alt="" />
+                <span>Партнеры - топовые бренды</span>
+            </div>
+            <div class="brand">
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+                <div class="brand__items">
+                    <img src="./assets/msi_logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container__">
+
+        <div class="container1">
+            <div class="arrow">
+                <img src="./assets/arrow.png">
+            </div>
+            <div class="title">
+                <span> Программа обучения</span>
+            </div>
+            <div>
+                <p class="text">
+                    Больше 90% учеников прошли полный курс и смогли <br> собрать свой первый компьютер </br>
+                </p>
+            </div>
+        </div>
+
+        <div class="container2">
+
+            <div class="info_section1">
+
+                <div>
+                    <div class="shabat1">Неделя №1</div>
+                    <div class="text1">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+
+                <div>
+                    <div class="shabat1">Неделя №3</div>
+                    <div class="text1">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+
+                <div>
+                    <div class="shabat1">Неделя №5</div>
+                    <div class="text1">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+
+                <div>
+                    <div class="shabat1">Неделя №7</div>
+                    <div class="text1">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+            </div>
+
+
+            <div class="info_section2">
+                <img class="line1" src="./assets/Line 5.png">
+                <img class="line1" src="./assets/Line 5.png">
+                <img class="line1" src="./assets/Line 5.png">
+                <img class="line1" src="./assets/Line 5.png">
+            </div>
+
+            <div class="info_section3">
+                <img src="./assets/timeline.png">
+            </div>
+
+            <div class="info_section4">
+                <img class="line2" src="./assets/Line 5.png">
+                <img class="line3" src="./assets/Line 5.png">
+                <img class="line4" src="./assets/Line 5.png">
+            </div>
+
+            <div class="info_section5">
+
+                <div>
+                    <div class="shabat2">Неделя №2</div>
+                    <div class="text2">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+
+                <div>
+                    <div class="shabat2">Неделя №4</div>
+                    <div class="text2">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+
+                <div>
+                    <div class="shabat2">Неделя №6</div>
+                    <div class="text2">Красивая часть курса, которая помогает в успехе</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="teachers__section">
+        <div class="teachers">
+
+            <div class="ellipse">
+                <img src="./assets/Ellipse 1 (Stroke).png" alt="Ellipse">
+            </div>
+            <div class="teacher_text">
+                <p>Ваши преподаватели</p>
+            </div>
+        </div>
+        <div class="teacher_items">
+            <div class="each_items">
+                <img src="./assets/person1.png" alt="First">
+                <p class="each_item_name">Дмитрий Иванов</p>
+                <p class="each_item_bio">Специалист по видеокартам</p>
+                <button class="teachers_btn">Биография</button>
+            </div>
+            <div class="each_items">
+                <img src="./assets/person2.png" alt="Second">
+                <p class="each_item_name">Дмитрий Иванов</p>
+                <p class="each_item_bio">Специалист по видеокартам</p>
+                <button class="teachers_btn">Биография</button>
+            </div>
+            <div class="each_items">
+                <img src="./assets/person3.png" alt="Third">
+                <p class="each_item_name">Дмитрий Иванов</p>
+                <p class="each_item_bio">Специалист по видеокартам</p>
+                <button class="teachers_btn">Биография</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer_week">
+            <p>Статьи каждую неделю</p>
+        </div>
+        <div class="footer_text">
+            <p>Больше 90% учеников прошли полный курс и смогли<br> собрать свой первый компьютер</p>
+        </div>
+        <div class="footer_email_and_btn">
+            <input type="email" class="footer_email" placeholder="E-mail">
+            <button class="footer_email_btn"> Подписаться </button>
+        </div>
+        <p class="footer__error__text"></p>
+        <div class="footer_apps">
+            <div class="footer_apps_ellipse">
+                <img src="./assets/VK.svg" alt="VK">
+            </div>
+            <div class="footer_apps_ellipse">
+                <img src="./assets/Youtube.svg" alt="Youtube">
+            </div>
+            <div class="footer_apps_ellipse">
+                <img src="./assets/Facebook.svg" alt="Facebook">
+            </div>
+            <div class="footer_apps_ellipse">
+                <img src="./assets/instagram.svg" alt="Instagram">
+            </div>
+        </div>
+        <div class="footer_end">
+            <p>Templates #18. More on Figma.info</p>
+        </div>
+    </footer>
+
+    <div class="overlay hidden"></div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
